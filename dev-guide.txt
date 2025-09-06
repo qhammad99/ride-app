@@ -1,0 +1,7 @@
+guide to know, what i did during this project.
+1. created motia project using
+	npx motia@latest create -i
+2. run it using npx motia dev
+	npx motia dev
+
+
