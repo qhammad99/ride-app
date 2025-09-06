@@ -13,8 +13,16 @@
     "id": "pet-apis",
     "config": {
       "steps/pets/create-pet.step.js": {
-        "x": 0,
+        "x": 55,
         "y": 0
+      },
+      "steps/pets/get-pets.step.js": {
+        "x": 64,
+        "y": 204
+      },
+      "steps/pets/get-pet-by-id.step.js": {
+        "x": 0,
+        "y": 408
       }
     }
   }

@@ -14,5 +14,6 @@ declare module 'motia' {
   interface Handlers {
     'Create Pet': ApiRouteHandler<{ name: string; breed: string; age: number }, ApiResponse<200, { id: string; name: string; breed: string; age: number }>, never>
     'Get Pets': ApiRouteHandler<Record<string, unknown>, ApiResponse<200, { pets: { id: string; name: string; breed: string; age: number }[] }>, never>
+    'Get Pet by Id': ApiRouteHandler<Record<string, unknown>, ApiResponse<200, { id: string; name: string; breed: string; age: number }> | ApiResponse<404, { message: string }>, never>
   }
 }

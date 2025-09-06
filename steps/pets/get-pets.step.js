@@ -45,7 +45,7 @@ export const handler = async (req, {logger}) => {
 
  return {
     status: 200,
-    body: pets,
+    body: { pets },
   }
 
 };
